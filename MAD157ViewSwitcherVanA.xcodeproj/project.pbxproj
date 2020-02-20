@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3F8DB0CE23FDD6A4006F6831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DB0CD23FDD6A4006F6831 /* AppDelegate.swift */; };
-		3F8DB0D023FDD6A4006F6831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DB0CF23FDD6A4006F6831 /* ViewController.swift */; };
 		3F8DB0D323FDD6A4006F6831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DB0D123FDD6A4006F6831 /* Main.storyboard */; };
 		3F8DB0D523FDD6A5006F6831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DB0D423FDD6A5006F6831 /* Assets.xcassets */; };
 		3F8DB0D823FDD6A5006F6831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DB0D623FDD6A5006F6831 /* LaunchScreen.storyboard */; };
+		3F8DB0E223FDD7B7006F6831 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DB0E123FDD7B7006F6831 /* SwitchingViewController.swift */; };
+		3F8DB0E423FDD99D006F6831 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DB0E323FDD99D006F6831 /* BlueViewController.swift */; };
+		3F8DB0E623FDD9BF006F6831 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DB0E523FDD9BF006F6831 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F8DB0CA23FDD6A4006F6831 /* MAD157ViewSwitcherVanA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD157ViewSwitcherVanA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8DB0CD23FDD6A4006F6831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F8DB0CF23FDD6A4006F6831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F8DB0D223FDD6A4006F6831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F8DB0D423FDD6A5006F6831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8DB0D723FDD6A5006F6831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8DB0D923FDD6A5006F6831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8DB0E123FDD7B7006F6831 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		3F8DB0E323FDD99D006F6831 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		3F8DB0E523FDD9BF006F6831 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				3F8DB0CD23FDD6A4006F6831 /* AppDelegate.swift */,
-				3F8DB0CF23FDD6A4006F6831 /* ViewController.swift */,
 				3F8DB0D123FDD6A4006F6831 /* Main.storyboard */,
 				3F8DB0D423FDD6A5006F6831 /* Assets.xcassets */,
 				3F8DB0D623FDD6A5006F6831 /* LaunchScreen.storyboard */,
 				3F8DB0D923FDD6A5006F6831 /* Info.plist */,
+				3F8DB0E123FDD7B7006F6831 /* SwitchingViewController.swift */,
+				3F8DB0E323FDD99D006F6831 /* BlueViewController.swift */,
+				3F8DB0E523FDD9BF006F6831 /* YellowViewController.swift */,
 			);
 			path = MAD157ViewSwitcherVanA;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8DB0D023FDD6A4006F6831 /* ViewController.swift in Sources */,
+				3F8DB0E623FDD9BF006F6831 /* YellowViewController.swift in Sources */,
 				3F8DB0CE23FDD6A4006F6831 /* AppDelegate.swift in Sources */,
+				3F8DB0E423FDD99D006F6831 /* BlueViewController.swift in Sources */,
+				3F8DB0E223FDD7B7006F6831 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
